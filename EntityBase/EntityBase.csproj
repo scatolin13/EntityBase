@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Claudio Scatolin</Authors>
+    <Company>M2RG</Company>
+    <Description>Validador  entidades em modelagem de domínio rico.
+Biblioteca inspirada na biblioteca Flunt do André Baltieri</Description>
+    <Copyright />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>
