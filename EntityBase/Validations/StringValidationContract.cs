@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace EntityBase.Validations
+namespace FluntValidation.Validations
 {
     public partial class EntityBase
     {
@@ -105,6 +105,12 @@ namespace EntityBase.Validations
 
         public EntityBase IsCPF(string cpf, string property, string message)
         {
+            if (string.IsNullOrWhiteSpace(cpf))
+            {
+                AddNotification(property, message);
+                return this;
+            }
+
             bool valid = true;
             int[] multiplicador1 = new int[9] { 10, 9, 8, 7, 6, 5, 4, 3, 2 };
             int[] multiplicador2 = new int[10] { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2 };
@@ -158,6 +164,12 @@ namespace EntityBase.Validations
 
         public EntityBase IsCNPJ(string cnpj, string property, string message)
         {
+            if (string.IsNullOrWhiteSpace(cnpj))
+            {
+                AddNotification(property, message);
+                return this;
+            }
+
             bool valid = true;
             int[] multiplicador1 = new int[12] { 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2 };
             int[] multiplicador2 = new int[13] { 6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2 };

@@ -1,8 +1,8 @@
-﻿using EntityBase.Notifications;
+﻿using FluntValidation.Notifications;
 using System;
 using System.Linq.Expressions;
 
-namespace EntityBase.Validations
+namespace FluntValidation.Validations
 {
     public partial class EntityBase : Notificable
     {

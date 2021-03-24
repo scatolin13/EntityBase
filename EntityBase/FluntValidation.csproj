@@ -8,6 +8,7 @@
 Biblioteca inspirada na biblioteca Flunt do André Baltieri</Description>
     <Copyright />
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
 </Project>

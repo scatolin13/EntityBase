@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace EntityBase.Notifications
+namespace FluntValidation.Notifications
 {
     public abstract class Notificable
     {

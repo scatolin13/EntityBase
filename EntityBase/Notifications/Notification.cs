@@ -1,4 +1,4 @@
-﻿namespace EntityBase.Notifications
+﻿namespace FluntValidation.Notifications
 {
     public sealed class Notification
     {

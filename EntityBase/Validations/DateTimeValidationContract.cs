@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EntityBase.Validations
+namespace FluntValidation.Validations
 {
     public partial class EntityBase
     {

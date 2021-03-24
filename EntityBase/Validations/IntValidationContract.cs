@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace EntityBase.Validations
+namespace FluntValidation.Validations
 {
     public partial class EntityBase
     {
